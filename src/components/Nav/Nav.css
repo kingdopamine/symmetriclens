@@ -1,0 +1,208 @@
+#navBar{
+    
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgba(127,127,127,0.1);
+    height:65px;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    width: 100vw;
+  }
+  
+    
+  #logo{
+    display: inline;
+    padding:14px;
+    line-height: 65px;
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+  }
+
+  #logo:hover {
+    background-color: black;
+    color: white;
+  }
+
+  #navBar a{
+    text-decoration: none;
+  }
+  
+  #mainlist {
+    display: inline;
+    position: absolute;
+    padding:0;
+    margin-top:32.5px;
+    transform:translate(0,-50%)
+    
+  }
+  
+  #mainlist li {
+    display: inline;
+    font-size: 14px;
+    list-style-type: none;
+    padding:10px;
+    
+  }
+
+  #mainlist li:hover {
+    text-decoration: underline;
+  }
+
+  #sublist {
+    display: inline;
+    float: right;
+    margin-right: 30px;
+    margin-top:32.5px;
+    transform:translate(0,-50%);
+   
+    
+  }
+
+  #sublist li {
+    display: inline;
+    font-size: 14px;
+    list-style-type: none;
+    padding:10px;
+    
+  }
+
+  #sublist li:hover {
+    cursor: pointer;
+  }
+
+  #searchbar {
+    position: fixed;
+    margin-top: 65px;
+    z-index: 10;
+    
+  }
+
+  #searchtext {
+    height:65px;
+    width:100vw;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+    border-top:0.5px;
+    border-width: 1px;
+  }
+
+  #searchicon{
+    font-size: 18px;
+  }
+
+
+
+  #ig-icon{
+    font-size: 20px;
+  }
+
+
+
+  #contact-link:hover{
+    text-decoration: underline;
+  }
+
+#nosearch {
+  display:none
+}
+ 
+
+#closesearch {
+  position: absolute;
+  margin-top: 32.5px;
+  margin-left: 97.5vw;
+  transform:translate(-50%,-50%);
+  font-size: 22.5px;
+}
+
+#closesearch:hover{
+  cursor: pointer;
+}
+
+#nav-logo{
+  transform: translate(-0%,25%);
+  height:25px
+}
+
+#hamburger{
+  display: none;
+  transform: translate(-0%,5%);
+  font-size: 23px;
+  
+}
+
+#hamburger-menu{
+  position: fixed;
+  margin-top: 135px;
+  z-index: 10;
+  height: 100%;
+}
+
+#hamburger-menu ul{
+  text-align: center;
+  background-color: white;
+  width: 100vw;
+  border-bottom: solid;   
+  border-width: 1px;
+  border-color: rgba(127,127,127,1);
+  
+}
+
+#hamburger-menu li:hover{
+  text-decoration: underline;
+}
+
+#hamburger-menu a{
+  text-decoration: none;
+}
+
+#hamburger-menu-hidden{
+  display: none;
+}
+
+#mainlist-small-width {
+  display: none;
+  position: absolute;
+  padding:0;
+  margin-top:32.5px;
+  transform:translate(0,-50%)
+  
+}
+
+#mainlist-small-width li {
+  display: inline;
+  font-size: 14px;
+  list-style-type: none;
+  padding:10px;
+  
+}
+
+#mainlist-small-width li:hover {
+  text-decoration: underline;
+}
+
+
+
+@media (max-width:835px){
+  #mainlist {
+    display: none;
+    
+  }
+
+  #hamburger{
+    display: inline-block;
+  }
+
+  #contact-link{
+    position: absolute;
+    margin-top: -50px;
+   
+  }
+
+  #mainlist-small-width{
+    display:inline
+  }
+}

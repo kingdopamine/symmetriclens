@@ -1,0 +1,151 @@
+#templatecontainer{
+    margin-left: 10px;
+    margin-right: 250px;
+}
+
+#templatecontainer-noscroll{
+    margin-left: 10px;
+    margin-right: 250px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#templatecontainer article{
+    width:50vw;
+    font-weight: 300;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+#navspace{
+    margin-top:65px;
+    display:inline-block
+}
+
+#articleimagescontainer{
+    width: 100%;
+    
+}
+
+#mainimg{
+    transform: translate(-50%);
+    margin-left: 50%;
+    max-height:45vw;
+    
+    opacity:1;
+    animation-name: faded;
+    animation-duration: 1s;
+}
+
+#mainimg:hover{
+    cursor: pointer;
+}
+
+#expanded-img-container{
+    position: absolute;
+    width: 100vw;
+    height:100vh;
+    background-color:rgba(0, 0, 0, .5); 
+    margin-left: -10px;
+    z-index: 10;
+}
+
+#expanded-img{
+    max-height: 95vh;
+    max-width: 95vw;
+    transform: translate(-50%,-50%);
+    margin-left:50vw;
+    margin-top: 50vh;
+}
+
+#close-img-expansion{
+    color: white;
+    margin-top: 20px;
+    margin-left: 90vw;
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+}
+
+#close-img-expansion:hover{
+    cursor: pointer;
+}
+
+#expand-img-hidden{
+    display:none
+}
+
+#articleimagescontainer{
+   
+}
+
+#img-nav{
+position: relative;
+margin-top: -20vw;
+margin-bottom:20vw;
+display: flex;
+justify-content: space-between;
+z-index: 9;
+}
+
+#img-nav-hidden{
+    display: none;
+}
+
+#previous-img-button{
+    
+    
+    transform: translate(0%,-50%);
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.2);
+}
+#next-img-button{
+    
+    transform: translate(0%,-50%);
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.2);   
+}
+
+#previous-img-button:hover{
+    color: rgba(0, 0, 0, 1); 
+    cursor: pointer;
+}
+
+#next-img-button:hover{
+    color: rgba(0, 0, 0, 1); 
+    cursor: pointer;
+}
+
+@keyframes faded {
+    0%{
+        opacity:0
+    }
+}
+
+
+#iconcolour{
+    background-color:rgba(0, 0, 0, 0.2);
+}
+
+.icon{
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+    height:10px;
+    width: 10px;
+    margin: 2px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.icon:hover{
+    background-color:rgba(0, 0, 0, 0.2);
+}
+
+#instagramembed {
+    transform: translate(35%,0%);
+    
+    
+}

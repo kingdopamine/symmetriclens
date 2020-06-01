@@ -10,6 +10,8 @@ import Footwear from './components/Footwear/Footwear'
 import Accessories from './components/Accessories/Accessories'
 import Contact from './components/Contact/Contact'
 
+import SL2005009 from './components/Articles/2020/05/009/SL2005009'
+import img056 from './components/Articles/2020/05/009/symmetriclens-a-cold-wall-ss20-outerwear-jackets-1.jpg';
 import SL2005008 from './components/Articles/2020/05/008/SL2005008'
 import img055 from './components/Articles/2020/05/008/symmetriclens-end-clarks-wallabee-collaboration-1.jpg'
 import SL2001013 from './components/Articles/2020/01/013/SL2001013'
@@ -114,10 +116,10 @@ import SL2005001 from './components/Articles/2020/05/001/SL2005001'
 import img004 from './components/Articles/2020/05/001/symmetriclens-supreme-barbour-1.jpg'
 import SL2004001 from './components/Articles/2020/04/001/SL2004001'
 import img003 from './components/Articles/2020/04/001/symmetriclens-burberry-reburberry-2.jpg'
-import SL1812001 from './components/Articles/2018/12/001/SL1812001'
-import img002 from './components/Articles/2018/12/001/symmetriclens-vivienne-westwood-burberry-capsule-collection-1.jpg'
-import SL1807001 from './components/Articles/2018/07/001/SL1807001'
-import img001 from './components/Articles/2018/07/001/symmetriclens-vivienne-westwood-riccardo-tisci-2.jpg'
+//import SL1812001 from './components/Articles/2018/12/001/SL1812001'
+//import img002 from './components/Articles/2018/12/001/symmetriclens-vivienne-westwood-burberry-capsule-collection-1.jpg'
+//import SL1807001 from './components/Articles/2018/07/001/SL1807001'
+//import img001 from './components/Articles/2018/07/001/symmetriclens-vivienne-westwood-riccardo-tisci-2.jpg'
 
 
 
@@ -131,6 +133,16 @@ class App extends React.Component{
     //URL should just be keywords
     this.state={
       articles:[
+        {   
+          id:SL2005009,
+          title:`A-COLD-WALL* SS20 Jacket collection`,
+          subtitle:`Detachable Compass`,
+          image:img056,
+          URL:`/article/end-clarks-wallabees-20200525`,
+          brands:['A Cold Wall'],
+          category:['clothing'],
+          date: new Date("2020-05-27").toDateString()
+        },
         {   
           id:SL2005008,
           title:`END. x Clarks: new Wallabees`,
@@ -156,7 +168,7 @@ class App extends React.Component{
           title:`Barbour x Supreme Spring 2020 capsule collection`,
           subtitle:`Featuring barbour's iconic waxed cotton jackets`,
           image:img004,
-          URL:`/article/burberry-reburberry-sustainable-ecological-20200522`,
+          URL:`/article/barbour-supreme-20200522`,
           brands:['Barbour','Supreme'],
           category:['clothing'],
           date: new Date("2020-05-22").toDateString()

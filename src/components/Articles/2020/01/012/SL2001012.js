@@ -26,7 +26,7 @@ class SL2001012 extends React.Component {
                 
                 <br/><br/>Below is a promotional video featuring modern dancer Abdourahman Njie
                 
-                <br/><br/><iframe width="560" height="315" src="https://www.youtube.com/embed/TDDB8M3Z74A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+                <br/><br/><iframe width="560" height="315" src="https://www.youtube.com/embed/TDDB8M3Z74A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="Stone Island x Browns SS20"></iframe></p>
             
             )
 

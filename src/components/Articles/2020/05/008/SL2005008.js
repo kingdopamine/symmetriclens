@@ -1,6 +1,5 @@
 import React from 'react';
 import MetaTags from 'react-meta-tags';
-import InstagramEmbed from 'react-instagram-embed';
 
 import ArticleTemplate from '../../../../ArticleTemplate/ArticleTemplate'
 

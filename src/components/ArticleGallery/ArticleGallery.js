@@ -34,10 +34,10 @@ class ArticleGallery extends React.Component {
         return (
           <div>
             <div id="leadarticle-section">
-            <a href="/article/burberry-reburberry-sustainable-ecological-20200522">
+            <a href="/article/barbour-supreme-20200522">
               <div className={this.state.leadarticle[0]}>
                 <div className="leadarticles">
-                  <img src={img1}/>
+                  <img src={img1} alt="Barbour x Supreme 2020"/>
                 </div>
                 <h2 id="mainimgcap">Barbour x Supreme Spring 2020 capsule collection</h2>
               </div>
@@ -45,7 +45,7 @@ class ArticleGallery extends React.Component {
             <a href="/article/maharishi-summer-lookbook-2020-20200409">
               <div className={this.state.leadarticle[1]}>
                 <div className="leadarticles">
-                  <img src={img2}/>
+                  <img src={img2} alt="Maharishi summer lookbook 2020"/>
                 </div>
                 <h2 id="mainimgcap">Maharishi Spring Summer 2020 lookbook release</h2>
               </div>
@@ -53,7 +53,7 @@ class ArticleGallery extends React.Component {
             <a href="/article/nigel-cabourn-element-skateboards-cricket-collection-20200401">
               <div className={this.state.leadarticle[2]}>
                 <div className="leadarticles">
-                  <img src={img3}/>
+                  <img src={img3} alt="Nigel Cabourn x Element Skateboards Cricket Collection 2020"/>
                 </div>
                 <h2 id="mainimgcap">Nigel Cabourn and Element come together to create a cricket inspired collection</h2>
               </div>
@@ -61,7 +61,7 @@ class ArticleGallery extends React.Component {
             <a href="/article/a-cold-wall-retrosuperfuture-collaboration-sunglasses-20200320">
               <div className={this.state.leadarticle[3]}>
                 <div className="leadarticles">
-                  <img src={img4}/>
+                  <img src={img4} alt="A-COLD-WALL* x RETROSUPERFUTURE Sunglasses 2020"/>
                 </div>
                 <h2 id="mainimgcap">A-COLD-WALL* x RETROSUPERFUTURE Sunglasses collaboration</h2>
               </div>

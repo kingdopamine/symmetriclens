@@ -184,6 +184,9 @@
   text-decoration: underline;
 }
 
+#searchsubmenu{
+  cursor: pointer;
+}
 
 
 @media (max-width:835px){
@@ -194,15 +197,30 @@
 
   #hamburger{
     display: inline-block;
+    margin-right: -25px;
+    transform: translate(0%,15%);
   }
 
   #contact-link{
     position: absolute;
-    margin-top: -50px;
+    margin-top: -500px;
    
+  }
+
+  #searchicon{
+    display: none;
+  }
+
+  #ig-icon{
+    font-size: 24px;
+    transform: translate(0%,15%);
   }
 
   #mainlist-small-width{
     display:inline
+  }
+
+  #logo{
+    font-size: 21px;
   }
 }

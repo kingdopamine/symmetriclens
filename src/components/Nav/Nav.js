@@ -33,6 +33,7 @@ class Nav extends React.Component {
             <a href="footwear"><li>FOOTWEAR</li></a>
             <a href="accessories"><li>BAGS/ACCESSORIES</li></a>
           </ul>
+
           <ul id="sublist">
             <li onClick={()=>{return this.hamburgerToggle()}}><i class="fas fa-bars" id="hamburger"></i></li>
             <li onClick={()=>{this.setState({search:"searchbar"})}}><i class="fas fa-search" id="searchicon"></i></li>
@@ -45,7 +46,7 @@ class Nav extends React.Component {
         <div>
           <form id={this.state.search} action="/search">
             <i class="far fa-times-circle" id="closesearch" onClick={()=>{this.setState({search:"nosearch"})}}></i>
-            <input type="text" id="searchtext" name="q" autocomplete="off"/>
+            <input type="text" id="searchtext" name="q" autocomplete="off" placeholder="Search..." autofocus/>
           </form>
         </div>
         <div id={this.state.hamburger}>
@@ -54,7 +55,12 @@ class Nav extends React.Component {
             <a href="clothing"><li>CLOTHING</li></a><br/><br/>
             <a href="footwear"><li>FOOTWEAR</li></a><br/><br/>
             <a href="accessories"><li>BAGS/ACCESSORIES</li></a><br/><br/>
-            <a href="contact"><li>CONTACT</li></a><br/><br/><br/>
+            <a href="contact"><li>CONTACT</li></a><br/><br/>
+            <li onClick={()=>{
+              this.setState({search:"searchbar"});
+              this.hamburgerToggle()
+              }} id="searchsubmenu">SEARCH  <i class="fas fa-search" ></i></li><br/><br/><br/>
+
           </ul>
         </div>
       </div>

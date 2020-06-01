@@ -43,7 +43,7 @@
 
 
 #mainimgcap{
-    margin-top: -75px;
+    margin-top: -55px;
     margin-bottom: 75px;
     text-align: center;
     transform: translate(-50%,-50%);
@@ -104,4 +104,19 @@
     font-size: 12px;
     color: grey;
     line-height: 0;
+}
+
+@media(max-width:500px){
+    .leadarticles img {
+        
+        margin-top: 30vh;
+        
+   
+    }
+
+    #mainimgcap{
+        margin-top: -30px;
+        margin-bottom: 55px;
+        
+    }
 }

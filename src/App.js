@@ -9,7 +9,8 @@ import Clothing from './components/Clothing/Clothing'
 import Footwear from './components/Footwear/Footwear'
 import Accessories from './components/Accessories/Accessories'
 
-
+import SL2005008 from './components/Articles/2020/05/008/SL2005008'
+import img055 from './components/Articles/2020/05/008/symmetriclens-end-clarks-wallabee-collaboration-1.jpg'
 import SL2001013 from './components/Articles/2020/01/013/SL2001013'
 import img054 from './components/Articles/2020/01/013/symmetriclens-reebok-kenzo-minami-zig-kinetica-r58-2020-1.jpg'
 import SL2001012 from './components/Articles/2020/01/012/SL2001012'
@@ -129,6 +130,16 @@ class App extends React.Component{
     //URL should just be keywords
     this.state={
       articles:[
+        {   
+          id:SL2005008,
+          title:`END. x Clarks: new Wallabees`,
+          subtitle:`Native-American inspired`,
+          image:img055,
+          URL:`/article/end-clarks-wallabees-20200525`,
+          brands:['END','END.','Clarks'],
+          category:['Footwear'],
+          date: new Date("2020-05-25").toDateString()
+        },
         {   
           id:SL2005006,
           title:`Reebok x Kohei Okita, second drop for the "Reebok eightyone" collection`,

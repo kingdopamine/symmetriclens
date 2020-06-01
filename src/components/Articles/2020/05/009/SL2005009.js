@@ -29,10 +29,10 @@ class SL2005009 extends React.Component {
                 //main article
                 <p><a href="/search?q=a+cold+wall">A-COLD-WALL*</a> have dropped 3 new outerwear jackets for Spring Summer 2020.
 
-                <br/><br/>The treated M65; a drawcord pocket field nylon navy coloured jacket. Selling for £390, it features two bellowing flap pocket for the chest, concealed zip fastening, and epaulets. 
-                <br/>Alternatively, another similar jacket is available in a khaki-beige colour, featuring external chest pockets with flaps and no logo or graphic design on the back.
+                <br/><br/>The treated M65; a nylon navy coloured drawcord pocket field jacket. Selling for £390, it features two bellowing flap pockets for the chest, concealed zip fastening, and epaulets. 
+                <br/>Alternatively, another similar jacket is available in a khaki-beige colour, featuring external chest pockets with no logo or graphic on the back.
                 
-                <br/><br/>Finally is the Compass Storm Jacket; a two layered water resistant black nylon hooded jacket. It features a removable compass on the left arm, concealed chest pockets hidden beneath storm flaps, and zip hiding rain deflecting front yoke.
+                <br/><br/>Finally is the Compass Storm Jacket; a black nylon two layered water resistant hooded jacket. It features a removable compass on the left arm, concealed chest pockets hidden beneath storm flaps, and zip-hiding rain-deflecting front yoke.
                 
                 <br/><br/>Available now from <a target="blank" href="https://a-cold-wall.com/collections/outerwear">their web store</a></p>
             

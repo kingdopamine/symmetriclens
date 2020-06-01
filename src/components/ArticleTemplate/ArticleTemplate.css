@@ -149,3 +149,15 @@ z-index: 9;
     
     
 }
+
+@media(max-width:500px){
+
+    #templatecontainer{
+        margin-right: 0px;
+    }
+
+    #templatecontainer article{
+        width:80vw;
+        
+    }
+}

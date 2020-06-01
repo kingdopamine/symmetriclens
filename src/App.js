@@ -8,6 +8,7 @@ import SearchPage from './components/SearchPage/SearchPage'
 import Clothing from './components/Clothing/Clothing'
 import Footwear from './components/Footwear/Footwear'
 import Accessories from './components/Accessories/Accessories'
+import Contact from './components/Contact/Contact'
 
 import SL2005008 from './components/Articles/2020/05/008/SL2005008'
 import img055 from './components/Articles/2020/05/008/symmetriclens-end-clarks-wallabee-collaboration-1.jpg'
@@ -685,6 +686,7 @@ render(){
             <Route exact path="/footwear" render={()=> <Footwear articles={this.state.articles}/>}/>
             <Route exact path="/accessories" render={()=> <Accessories articles={this.state.articles}/>}/>
             <Route path="/search" render={props => <SearchPage articles={this.state.articles} {...props} />}/>
+            <Route path="/contact" render={()=> <Contact/>}/>
             {this.state.articles.map((articlelink) => {
               return (<Route path={articlelink.URL} exact component={articlelink.id} />)
             })}

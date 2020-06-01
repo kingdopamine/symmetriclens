@@ -65,7 +65,7 @@ class ArticleGallery extends React.Component {
                 <h2 id="mainimgcap">A-COLD-WALL* x RETROSUPERFUTURE Sunglasses collaboration</h2>
               </div>
             </a>
-
+            <div id="gallery-section">
             <div id="gallery-container">
               {this.state.articles
                 .map((article) => {
@@ -84,6 +84,7 @@ class ArticleGallery extends React.Component {
                     </div>
                   );
                 })}
+            </div>
             </div>
           </div>
         );

@@ -316,7 +316,7 @@ class App extends React.Component{
           subtitle:`Made in England`,
           image:img021,
           URL:`/article/john-smedley-fragment-design-sea-island-cotton-20200319`,
-          brands:['A COLD WALL', 'RETROSUPERFUTURE'],
+          brands:['John Smedley', 'Fragment Design'],
           category:['clothing'],
           date: new Date("2020-03-19").toDateString()
         },

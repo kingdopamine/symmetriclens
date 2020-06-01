@@ -51,8 +51,13 @@
     width:85vw;
 }
 
+#gallery-section {
+    position: absolute;
+    
+}
 
 #gallery-container{
+    
     margin-right: 200px;
     margin-top: 0;
 }

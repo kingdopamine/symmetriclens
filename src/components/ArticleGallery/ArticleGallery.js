@@ -33,6 +33,7 @@ class ArticleGallery extends React.Component {
     render(){
         return (
           <div>
+            <div id="leadarticle-section">
             <a href="/article/burberry-reburberry-sustainable-ecological-20200522">
               <div className={this.state.leadarticle[0]}>
                 <div className="leadarticles">
@@ -65,7 +66,8 @@ class ArticleGallery extends React.Component {
                 <h2 id="mainimgcap">A-COLD-WALL* x RETROSUPERFUTURE Sunglasses collaboration</h2>
               </div>
             </a>
-            <div id="gallery-section">
+          </div>
+          <div id="gallery-section">
             <div id="gallery-container">
               {this.state.articles
                 .map((article) => {

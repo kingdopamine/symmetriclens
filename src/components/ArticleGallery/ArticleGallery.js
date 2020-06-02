@@ -67,6 +67,7 @@ class ArticleGallery extends React.Component {
               </div>
             </a>
           </div>
+          
           <div id="gallery-section">
             <div id="gallery-container">
               {this.state.articles

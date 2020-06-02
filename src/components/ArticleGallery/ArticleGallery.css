@@ -68,7 +68,7 @@
 
 .fullcontainer{
     display: inline-block;
-    width:420px;
+    width:400px;
     margin: 5px;
     
     
@@ -76,7 +76,7 @@
 .imgcontainer{   
     display: inline-block;
     width:200px;
-    height:32.5vh;
+    height:30vh;
     margin:5px;
     overflow: hidden;
     transition: width 500ms;
@@ -95,7 +95,7 @@
     transform: translate(-50%,-50%);
     margin-top: 16vh; 
     margin-left: 50%;
-    max-height: 125%;
+    max-height: 115%;
 }
 
 

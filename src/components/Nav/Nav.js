@@ -30,7 +30,7 @@ class Nav extends React.Component {
           <a href="/"><h1 id="logo">symmetriclens.</h1></a>
           <ul id="mainlist">
             <a href="clothing"><li>clothing.</li></a>
-            <a href="footwear"><li>footwear</li></a>
+            <a href="footwear"><li>footwear.</li></a>
             <a href="accessories"><li>bags./accesories.</li></a>
           </ul>
 

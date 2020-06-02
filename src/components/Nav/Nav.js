@@ -29,16 +29,16 @@ class Nav extends React.Component {
         <div id="navBar">
           <a href="/"><h1 id="logo">symmetriclens.</h1></a>
           <ul id="mainlist">
-            <a href="clothing"><li>CLOTHING</li></a>
-            <a href="footwear"><li>FOOTWEAR</li></a>
-            <a href="accessories"><li>BAGS/ACCESSORIES</li></a>
+            <a href="clothing"><li>clothing.</li></a>
+            <a href="footwear"><li>footwear</li></a>
+            <a href="accessories"><li>bags./accesories.</li></a>
           </ul>
 
           <ul id="sublist">
             <li onClick={()=>{return this.hamburgerToggle()}}><i class="fas fa-bars" id="hamburger"></i></li>
             <li onClick={()=>{this.setState({search:"searchbar"})}}><i class="fas fa-search" id="searchicon"></i></li>
             <li><a href="https://www.instagram.com/symmetriclens" target="blank"><i class="fab fa-instagram" id="ig-icon"></i></a></li>
-            <li id="contact-link"><a href="/contact">CONTACT</a></li>
+            <li id="contact-link"><a href="/contact">contact.</a></li>
             <a href="/"><img src={logo} id="nav-logo" alt="symmetriclens. logo"/></a>
           </ul>
           
@@ -52,14 +52,14 @@ class Nav extends React.Component {
         <div id={this.state.hamburger}>
           <ul id="mainlist-small-width">
             <li></li><br/><br/>
-            <a href="clothing"><li>CLOTHING</li></a><br/><br/>
-            <a href="footwear"><li>FOOTWEAR</li></a><br/><br/>
-            <a href="accessories"><li>BAGS/ACCESSORIES</li></a><br/><br/>
-            <a href="contact"><li>CONTACT</li></a><br/><br/>
+            <a href="clothing"><li>clothing.</li></a><br/><br/>
+            <a href="footwear"><li>footwear.</li></a><br/><br/>
+            <a href="accessories"><li>bags./accessories</li></a><br/><br/>
+            <a href="contact"><li>contact.</li></a><br/><br/>
             <li onClick={()=>{
               this.setState({search:"searchbar"});
               this.hamburgerToggle()
-              }} id="searchsubmenu">SEARCH  <i class="fas fa-search" ></i></li><br/><br/><br/>
+              }} id="searchsubmenu">search.  <i class="fas fa-search" ></i></li><br/><br/><br/>
 
           </ul>
         </div>

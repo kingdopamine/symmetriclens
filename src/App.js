@@ -10,6 +10,8 @@ import Footwear from './components/Footwear/Footwear'
 import Accessories from './components/Accessories/Accessories'
 import Contact from './components/Contact/Contact'
 
+import SL2006001 from './components/Articles/2020/06/001/SL2006001'
+import img057 from './components/Articles/2020/06/001/symmetriclens-nigel-cabourn-tretorn-ss20-1.jpeg'
 import SL2005009 from './components/Articles/2020/05/009/SL2005009'
 import img056 from './components/Articles/2020/05/009/symmetriclens-a-cold-wall-ss20-outerwear-jackets-1.jpg';
 import SL2005008 from './components/Articles/2020/05/008/SL2005008'
@@ -133,6 +135,16 @@ class App extends React.Component{
     //URL should just be keywords
     this.state={
       articles:[
+        {   
+          id:SL2006001,
+          title:`Nigel Cabourn x Tretorn Spring Summer 2020 capsule`,
+          subtitle:`100% Organic Ventile`,
+          image:img057,
+          URL:`/article/nigel-cabourn-tretorn-20200604`,
+          brands:['Nigel Cabourn','Tretorn'],
+          category:['clothing','sneakers'],
+          date: new Date("2020-06-04").toDateString()
+        },
         {   
           id:SL2005009,
           title:`A-COLD-WALL* SS20 Jacket collection`,

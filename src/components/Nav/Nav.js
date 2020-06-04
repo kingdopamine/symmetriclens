@@ -11,6 +11,7 @@ class Nav extends React.Component {
       hamburger:"hamburger-menu-hidden"
     }
     this.hamburgerToggle=this.hamburgerToggle.bind(this)
+    this.searchToggle=this.searchToggle.bind(this)
     
   }
 
@@ -20,6 +21,16 @@ class Nav extends React.Component {
     } else {
       this.setState({hamburger:"hamburger-menu-hidden"})
     }
+  }
+
+  searchToggle(){
+    if(this.state.search==="searchbar"){
+      this.setState({search:"nosearch"})
+    };
+
+    if(this.state.search==="nosearch"){
+      this.setState({search:"searchbar"})
+    };
   }
 
   
@@ -36,7 +47,7 @@ class Nav extends React.Component {
 
           <ul id="sublist">
             <li onClick={()=>{return this.hamburgerToggle()}}><i class="fas fa-bars" id="hamburger"></i></li>
-            <li onClick={()=>{this.setState({search:"searchbar"})}}><i class="fas fa-search" id="searchicon"></i></li>
+            <li onClick={this.searchToggle}><i class="fas fa-search" id="searchicon"></i></li>
             <li><a href="https://www.instagram.com/symmetriclens" target="blank"><i class="fab fa-instagram" id="ig-icon"></i></a></li>
             <li id="contact-link"><a href="/contact">contact.</a></li>
             <a href="/"><img src={logo} id="nav-logo" alt="symmetriclens. logo"/></a>

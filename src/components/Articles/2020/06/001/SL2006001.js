@@ -6,13 +6,13 @@ import ArticleTemplate from '../../../../ArticleTemplate/ArticleTemplate'
 
 
 //images for the main image slider
-import image1 from './symmetriclens-nigel-cabourn-tretorn-ss20-1.jpeg';
-import image2 from './symmetriclens-nigel-cabourn-tretorn-ss20-2.jpeg';
-import image3 from './symmetriclens-nigel-cabourn-tretorn-ss20-3.jpeg';
-import image4 from './symmetriclens-nigel-cabourn-tretorn-ss20-4.jpeg';
-import image5 from './symmetriclens-nigel-cabourn-tretorn-ss20-5.jpeg';
-import image6 from './symmetriclens-nigel-cabourn-tretorn-ss20-6.jpeg';
-import image7 from './symmetriclens-nigel-cabourn-tretorn-ss20-7.jpeg';
+import image1 from './symmetriclens-nigel-cabourn-tretorn-ss20-1.jpg';
+import image2 from './symmetriclens-nigel-cabourn-tretorn-ss20-2.jpg';
+import image3 from './symmetriclens-nigel-cabourn-tretorn-ss20-3.jpg';
+import image4 from './symmetriclens-nigel-cabourn-tretorn-ss20-4.jpg';
+import image5 from './symmetriclens-nigel-cabourn-tretorn-ss20-5.jpg';
+import image6 from './symmetriclens-nigel-cabourn-tretorn-ss20-6.jpg';
+import image7 from './symmetriclens-nigel-cabourn-tretorn-ss20-7.jpg';
 
 
 //change class name

@@ -11,7 +11,7 @@ import Accessories from './components/Accessories/Accessories'
 import Contact from './components/Contact/Contact'
 
 import SL2006001 from './components/Articles/2020/06/001/SL2006001'
-import img057 from './components/Articles/2020/06/001/symmetriclens-nigel-cabourn-tretorn-ss20-1.jpeg'
+import img057 from './components/Articles/2020/06/001/symmetriclens-nigel-cabourn-tretorn-ss20-1.jpg'
 import SL2005009 from './components/Articles/2020/05/009/SL2005009'
 import img056 from './components/Articles/2020/05/009/symmetriclens-a-cold-wall-ss20-outerwear-jackets-1.jpg';
 import SL2005008 from './components/Articles/2020/05/008/SL2005008'

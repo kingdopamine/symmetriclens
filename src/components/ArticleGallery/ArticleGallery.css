@@ -1,8 +1,8 @@
 .leadarticles{
-    height:90vh;
+    height:85vh;
     width:95vw;
     overflow: hidden;
-    
+    margin-top: 40px;
     display: inline-block;
     
 }
@@ -12,9 +12,14 @@
     margin-left: 50vw;
     margin-top: 50vh;
     max-height:100%;
+    max-width: 100%;
+    
  
 }
-
+#leadarticle-section{
+    
+    height:97.5vh
+}
 .leadvisible{
     opacity:1;
     animation-name:fade;
@@ -113,14 +118,13 @@
 @media(max-width:500px){
     .leadarticles img {
         
-        margin-top: 30vh;
+        margin-top: 50vh;
         
    
     }
 
     #mainimgcap{
-        margin-top: -50px;
-        margin-bottom: 55px;
+    
         font-size: 12px;
     }
 }

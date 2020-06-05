@@ -10,6 +10,8 @@ import Footwear from './components/Footwear/Footwear'
 import Accessories from './components/Accessories/Accessories'
 import Contact from './components/Contact/Contact'
 
+import SL2006002 from './components/Articles/2020/06/002/SL2006002'
+import img058 from './components/Articles/2020/06/002/symmetriclens-burberry-gosha-rubchinskiy-fw18-1.jpg'
 import SL2006001 from './components/Articles/2020/06/001/SL2006001'
 import img057 from './components/Articles/2020/06/001/symmetriclens-nigel-cabourn-tretorn-ss20-1.jpg'
 import SL2005009 from './components/Articles/2020/05/009/SL2005009'
@@ -136,13 +138,23 @@ class App extends React.Component{
     this.state={
       articles:[
         {   
+          id:SL2006002,
+          title:`REVISITED: Burberry x Gosha Rubchinskiy FW18`,
+          subtitle:`Reconstructed Flannel shirts`,
+          image:img058,
+          URL:`/article/revisited-burberry-gosha-rubchinskit-fw18-20200605`,
+          brands:['Burberry','Gosha Rubchinskiy'],
+          category:['clothing','footwear'],
+          date: new Date("2020-06-05").toDateString()
+        },
+        {   
           id:SL2006001,
           title:`Nigel Cabourn x Tretorn Spring Summer 2020 capsule`,
           subtitle:`100% Organic Ventile`,
           image:img057,
           URL:`/article/nigel-cabourn-tretorn-20200604`,
           brands:['Nigel Cabourn','Tretorn'],
-          category:['clothing','sneakers'],
+          category:['clothing','footwear'],
           date: new Date("2020-06-04").toDateString()
         },
         {   
@@ -162,7 +174,7 @@ class App extends React.Component{
           image:img055,
           URL:`/article/end-clarks-wallabees-20200525`,
           brands:['END','END.','Clarks'],
-          category:['Footwear'],
+          category:['footwear'],
           date: new Date("2020-05-25").toDateString()
         },
         {   
@@ -172,7 +184,7 @@ class App extends React.Component{
           image:img009,
           URL:`/article/reebok-kohei-okita-eightyone-20200522`,
           brands:['Reebok','Kohei Okita'],
-          category:['clothing', 'Footwear'],
+          category:['clothing', 'footwear'],
           date: new Date("2020-05-22").toDateString()
         },
         {   
@@ -704,18 +716,16 @@ render(){
     <Router>
       <div className="App">
         <Nav/>
-          <Switch>
-            <Route exact path="/" render={()=> <ArticleGallery articles={this.state.articles}/>}/>
-            <Route exact path="/clothing" render={()=> <Clothing articles={this.state.articles}/>}/>
-            <Route exact path="/footwear" render={()=> <Footwear articles={this.state.articles}/>}/>
-            <Route exact path="/accessories" render={()=> <Accessories articles={this.state.articles}/>}/>
-            <Route path="/search" render={props => <SearchPage articles={this.state.articles} {...props} />}/>
-            <Route path="/contact" render={()=> <Contact/>}/>
-            {this.state.articles.map((articlelink) => {
-              return (<Route path={articlelink.URL} exact component={articlelink.id} />)
-            })}
-
-            
+        <Switch>
+          <Route exact path="/" render={()=> <ArticleGallery articles={this.state.articles}/>}/>
+          <Route exact path="/clothing" render={()=> <Clothing articles={this.state.articles}/>}/>
+          <Route exact path="/footwear" render={()=> <Footwear articles={this.state.articles}/>}/>
+          <Route exact path="/accessories" render={()=> <Accessories articles={this.state.articles}/>}/>
+          <Route path="/search" render={props => <SearchPage articles={this.state.articles} {...props} />}/>
+          <Route path="/contact" render={()=> <Contact/>}/>
+          {this.state.articles.map((articlelink) => {
+            return (<Route path={articlelink.URL} exact component={articlelink.id} />)
+          })}
         </Switch>
       </div>
     </Router>

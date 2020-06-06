@@ -57,7 +57,7 @@ class Nav extends React.Component {
         <div>
           <form id={this.state.search} action="/search">
             <i class="far fa-times-circle" id="closesearch" onClick={()=>{this.setState({search:"nosearch"})}}></i>
-            <input type="text" id="searchtext" name="q" autocomplete="off" placeholder="Search..." autofocus/>
+            <input type="text" id="searchtext" name="q" autocomplete="off" placeholder="Search..." autoFocus/>
           </form>
         </div>
         <div id={this.state.hamburger}>

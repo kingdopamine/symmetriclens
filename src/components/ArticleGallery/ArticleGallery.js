@@ -4,8 +4,8 @@ import './ArticleGallery.css';
 
 import img1 from '../Articles/2020/05/001/symmetriclens-supreme-barbour-1.jpg' 
 import img2 from '../Articles/2020/04/003/symmetriclens-maharishi-spring-summer-2020-lookbook-1.jpg'
-import img3 from '../Articles/2020/04/004/symmetriclens-nigel-cabour-element-cricket-collaboration-1.jpg'
-import img4 from '../Articles/2020/03/001/symmetriclens-a-cold-wall-retrosuperfuture-sunglasses-1.jpg' 
+import img3 from '../Articles/2020/03/001/symmetriclens-a-cold-wall-retrosuperfuture-sunglasses-1.jpg' 
+import img4 from '../Articles/2020/04/006/symmetriclens-ahluwalia-matchesfashion-capsule-collection-1.jpg'
 
 
 class ArticleGallery extends React.Component {

@@ -22,8 +22,8 @@ class ArticleGallery extends React.Component {
         so that every 8 seconds a different article is the lead picture at the top of the website */ 
         setInterval(()=>{
             let arr = this.state.leadarticle;
-            let first = arr.shift();
-            arr.push(first);
+            let first = arr.pop();
+            arr.unshift(first);
             this.setState({leadarticle:arr});
         },4000)
     }

@@ -5,7 +5,7 @@ import './ArticleGallery.css';
 import img1 from '../Articles/2020/05/001/symmetriclens-supreme-barbour-1.jpg' 
 import img2 from '../Articles/2020/04/003/symmetriclens-maharishi-spring-summer-2020-lookbook-1.jpg'
 import img3 from '../Articles/2020/04/004/symmetriclens-nigel-cabour-element-cricket-collaboration-1.jpg'
-import img4 from '../Articles/2020/03/001/symmetriclens-a-cold-wall-retrosuperfuture-sunglasses-1.jpg' 
+import img4 from '../Articles/2020/04/006/symmetriclens-ahluwalia-matchesfashion-capsule-collection-1.jpg' 
 
 
 class ArticleGallery extends React.Component {
@@ -58,12 +58,12 @@ class ArticleGallery extends React.Component {
                 <h2 id="mainimgcap">Nigel Cabourn and Element come together to create a cricket inspired collection</h2>
               </div>
             </a>
-            <a href="/article/a-cold-wall-retrosuperfuture-collaboration-sunglasses-20200320">
+            <a href="/article/ahluwalia-matchesfashion-exclusive-capsule-collection-20200422">
               <div className={this.state.leadarticle[3]}>
                 <div className="leadarticles">
-                  <img src={img4} alt="A-COLD-WALL* x RETROSUPERFUTURE Sunglasses 2020"/>
+                  <img src={img4} alt="new Ahluwalia capsule exclusive to matchesfashion"/>
                 </div>
-                <h2 id="mainimgcap">A-COLD-WALL* x RETROSUPERFUTURE Sunglasses collaboration</h2>
+                <h2 id="mainimgcap">Ahluwalia drops collection exclusive to MATCHESFASHION</h2>
               </div>
             </a>
           </div>

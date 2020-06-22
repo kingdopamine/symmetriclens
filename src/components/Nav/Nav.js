@@ -63,10 +63,10 @@ class Nav extends React.Component {
         <div id={this.state.hamburger}>
           <ul id="mainlist-small-width">
             <li></li><br/><br/>
-            <a href="clothing"><li>clothing.</li></a><br/><br/>
-            <a href="footwear"><li>footwear.</li></a><br/><br/>
-            <a href="accessories"><li>bags./accessories</li></a><br/><br/>
-            <a href="contact"><li>contact.</li></a><br/><br/>
+            <a href="/clothing"><li>clothing.</li></a><br/><br/>
+            <a href="/footwear"><li>footwear.</li></a><br/><br/>
+            <a href="/accessories"><li>bags./accessories</li></a><br/><br/>
+            <a href="/contact"><li>contact.</li></a><br/><br/>
             <li onClick={()=>{
               this.setState({search:"searchbar"});
               this.hamburgerToggle()

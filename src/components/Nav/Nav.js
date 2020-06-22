@@ -40,9 +40,9 @@ class Nav extends React.Component {
         <div id="navBar">
           <a href="/"><h1 id="logo">symmetriclens.</h1></a>
           <ul id="mainlist">
-            <a href="clothing"><li>clothing.</li></a>
-            <a href="footwear"><li>footwear.</li></a>
-            <a href="accessories"><li>bags./accesories.</li></a>
+            <a href="/clothing"><li>clothing.</li></a>
+            <a href="/footwear"><li>footwear.</li></a>
+            <a href="/accessories"><li>bags./accesories.</li></a>
           </ul>
 
           <ul id="sublist">
@@ -63,10 +63,10 @@ class Nav extends React.Component {
         <div id={this.state.hamburger}>
           <ul id="mainlist-small-width">
             <li></li><br/><br/>
-            <a href="https://symmetriclens.com/clothing"><li>clothing.</li></a><br/><br/>
-            <a href="https://symmetriclens.com/footwear"><li>footwear.</li></a><br/><br/>
-            <a href="https://symmetriclens.com/accessories"><li>bags./accessories</li></a><br/><br/>
-            <a href="https://symmetriclens.com/contact"><li>contact.</li></a><br/><br/>
+            <a href="/clothing"><li>clothing.</li></a><br/><br/>
+            <a href="/footwear"><li>footwear.</li></a><br/><br/>
+            <a href="/accessories"><li>bags./accessories</li></a><br/><br/>
+            <a href="/contact"><li>contact.</li></a><br/><br/>
             <li onClick={()=>{
               this.setState({search:"searchbar"});
               this.hamburgerToggle()
